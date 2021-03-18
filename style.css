@@ -214,8 +214,8 @@ p{
     padding: 1.5rem;
     font-size: 2rem;
     text-align: center;
-    color: #3363ff;
-    background-color: #d8e0fd;
+    color: #3d3d3d;
+    background-color: #FF9961;
     border: none;
     border-radius: 0.4rem;
     transition: 0.2s;
@@ -229,7 +229,7 @@ p{
 }
 
 .card-btn:hover, .card-btn:active{
-    background-color: #c2cffc;
+    background-color: #ffa97b;
 }
 
 .card-btn:hover span, .card-btn:active span{
