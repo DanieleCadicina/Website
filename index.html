@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniele Cadicina</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
    
     <section id="header">
         <div class="container">
             <img src="images/logo.png" class="logo">
-            <div class="header-text">
+            <div data-aos="fade-right" data-aos-duration="1200" class="header-text">
                 <h1>Front-end <br>
                      Developer</h1>
                 <span class="square"></span>
@@ -40,7 +41,7 @@
         <div class="about-left-col">
             <img src="images/bg.jpg">
         </div>
-        <div class="about-right-col">
+        <div data-aos="fade-down" data-aos-duration="1200" class="about-right-col">
             <div class="about-text">
                 <h1>Su di me</h1>
                 <span class="square"></span>
@@ -65,10 +66,10 @@
     </section>
 
     <!--progetti-->
-    <h1 style="margin-left: 7.5%; margin-bottom: 3.5%;">I miei progetti</h1>
+    <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" style="margin-left: 7.5%; margin-bottom: 3.5%;">I miei progetti</h1>
     <section id="projects">
         <div class="grid">
-            <div class="grid-item">
+            <div data-aos="zoom-in-right" data-aos-duration="1200" class="grid-item">
                 <div class="card">
                     <img class="card-img" src="images/img1.png" alt="sara" />
                     <div class="card-content">
@@ -81,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="grid-item">
+            <div data-aos="zoom-in-left" data-aos-duration="1200" class="grid-item">
                 <div class="card">
                     <img class="card-img" src="images/img2.png" alt="dark" />
                     <div class="card-content">
@@ -98,19 +99,19 @@
 
     <!--funzionalita'-->
     <section id="features">
-        <h1 style="text-align: center;">Cosa utilizzo</h1><br><br><br>
+        <h1 data-aos="zoom-in-down" data-aos-duration="1200" style="text-align: center;">Cosa utilizzo</h1><br><br><br>
         <div class="feature-row">
-            <div class="feature-col">
+            <div data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200" class="feature-col">
                 <img src="images/pics-1.png">
                 <h4>HTML 5</h4>
                 <p>Lo standard dal web 1.0 in poi, è alla base di qualunque progetto passato, presente e futuro. Estremamente performante in velocità, poiché non deve interagire con basi di dati e tutte le sue informazioni si trovano all'interno della pagina.</p>
             </div>
-            <div class="feature-col">
+            <div data-aos="fade-down" data-aos-duration="1200" data-aos-delay="400" class="feature-col">
                 <img src="images/pics-2.png">
                 <h4>CSS 3</h4>
                 <p>Lo standard attuale da accompagnare all'html 5. Il CSS è un linguaggio di programmazione web utilizzato per descrivere l’aspetto e la formattazione di un sito web. Permette di creare pagine web ricche di contenuti con requisiti di codice relativamente leggeri. Ciò comporta che gli effetti visivi siano più elaborati, le pagine più leggere, una migliore interfaccia utente, e caricamento delle pagine più veloce.</p>
             </div>
-            <div class="feature-col">
+            <div data-aos="fade-down" data-aos-duration="1200" data-aos-delay="600" class="feature-col">
                 <img src="images/pics-3.png">
                 <h4>Javascript</h4>
                 <p>É il linguaggio di programmazione web più popolare e usato al mondo, permette la creazione di effetti dinamici interattivi innescati in vari modi dall'utente sulla pagina web in uso. Inoltre è supportato dai maggiori browser. </p>
@@ -156,6 +157,14 @@
         <a href="https://www.facebook.com/daniele.cadicina/" target="_blank" rel=”noopener”><img src="images/facebook.png"></a>
         <a href="https://www.instagram.com/danielecadicina.io/" target="_blank" rel=”noopener”><img src="images/instagram.png"></a>
     </div>
+
+    <!--script-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+      </script>
 
 </body>
 </html>
